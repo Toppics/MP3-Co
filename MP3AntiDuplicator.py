@@ -20,7 +20,6 @@ class MP3AntiDuplicator():
                 break
             except FileNotFoundError:
                 print('\nError, this directory doesn\'t exist ! Try again. ', end='')
-        # 'C:\Users\yan-s\Music'
         
         #Init exeLog
         self.exeLog =[]
