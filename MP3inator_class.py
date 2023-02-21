@@ -270,7 +270,7 @@ if __name__ == '__main__':
     exeSeq.exeSeq()
     
     
-""" # C:\\Users\\ivanr\\Desktop\\Pypi\\cwd\\Input
+"""
 Prochaine modification :
     -clean up
     -réessayer de réutiliser f° yes_no()
