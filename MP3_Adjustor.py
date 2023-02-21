@@ -34,7 +34,7 @@ for (dirpath, dirnames, fileNames) in os.walk(path):
             if fileName.find(author) !=-1:
                 newFile = fileName[fileName.find(author):]+ ' - '+ fileName[:fileName.find(author)].replace(' - ', '')+ os.path.splitext(file)[1]
                 print(fileName[authLen:],'n')
-                print(fileName[fileName.find('Pomme'):])
+                print(fileName[fileName.find(author):])
                 #os.renames(dirpath+'/'+file, dirpath+'/'+newFile)
             
         else:
